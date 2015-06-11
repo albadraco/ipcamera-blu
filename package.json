@@ -1,21 +1,23 @@
 {
-  "name": "DCS-5020L",
+  "name": "ipcamera-blu",
   "version": "1.0.0",
-  "private": true,
   "description": "An Octoblu device to control a D-LINK DCS-5020L IP Web Camera",
   "main": "command.js",
   "scripts": {
     "start": "node command.js"
   },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/albadraco/ipcamera-blu.git"
+  },
   "Author": "Thomas Root",
   "license": "ISC",
-  "engineStrict": true,
   "os": [ "win32" ],
   "cpu": [ "x64", "ia32" ],
   "dependencies": {
     "meshblu": "^1.9.0",
     "debug": "^2.1.0",
-	"regedit": "^2.2.2"	
+	  "regedit": "^2.2.2"	
   },
   "keywords": [
     "meshblu-connector",
